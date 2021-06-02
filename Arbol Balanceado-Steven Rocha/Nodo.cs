@@ -9,6 +9,7 @@ namespace Arbol_Balanceado_Steven_Rocha
 {
     class Nodo
     {
+        #region Declaracion de variables
         //Variables para controlar la rama o el lugar en el cual se posicionara el elemento
         public Nodo izquierdo { get; set; }
         public Nodo derecho { get; set; }
@@ -26,7 +27,9 @@ namespace Arbol_Balanceado_Steven_Rocha
             elipse = 35;
 
         public int nivel { get; set; }
+        #endregion
 
+        #region Sobrecarga de constructores
         public Nodo()
         {
 
@@ -46,6 +49,7 @@ namespace Arbol_Balanceado_Steven_Rocha
             this.izquierdo = izquierdo;
             this.derecho = derecho;
         }
+        #endregion
 
         #region Ubicar el nodo/elemento del arbol en la zona exacta
         public void UbicacionNodo(int posX, int posY)

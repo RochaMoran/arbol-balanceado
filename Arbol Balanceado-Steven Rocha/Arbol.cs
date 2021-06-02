@@ -10,6 +10,7 @@ namespace Arbol_Balanceado_Steven_Rocha
 {
     class Arbol
     {
+        #region Variables a usar
         public Nodo raiz;
 
         Graphics nodo;
@@ -19,10 +20,10 @@ namespace Arbol_Balanceado_Steven_Rocha
         int coordenadasY = 45;
         bool duplicado = false;
 
-        //bool encontrado = false;
         bool existe = false;
+        #endregion
 
-        //Sobrecarga de constructores
+        #region Sobrecarga de constructores
         public Arbol()
         {
 
@@ -36,8 +37,9 @@ namespace Arbol_Balanceado_Steven_Rocha
             this.nodo = nodo;
             this.font = font;
         }
+        #endregion
 
-
+        #region Equilibrar
         private int FactorEquilibrio(Nodo x)
         {
             if (x == null)
@@ -49,7 +51,9 @@ namespace Arbol_Balanceado_Steven_Rocha
                 return x.fe;
             }
         }
+        #endregion
 
+        #region Rotaciones
         private Nodo RotacionIzquierda(Nodo x)
         {
             Nodo auxiliar = x.izquierdo;
@@ -59,7 +63,6 @@ namespace Arbol_Balanceado_Steven_Rocha
             auxiliar.fe = Math.Max(FactorEquilibrio(auxiliar.izquierdo), FactorEquilibrio(auxiliar.derecho)) + 1;
             return auxiliar;
         }
-
         private Nodo RotacionDerecha(Nodo x)
         {
             Nodo auxiliar = x.derecho;
@@ -85,7 +88,9 @@ namespace Arbol_Balanceado_Steven_Rocha
             temp = RotacionIzquierda(x);
             return temp;
         }
+        #endregion
 
+        #region Insertar Nodo
         private Nodo Insertar(Nodo nuevo, Nodo subArb)
         {
             Nodo nuevoPadre = subArb;
@@ -111,6 +116,7 @@ namespace Arbol_Balanceado_Steven_Rocha
                         }
                     }
                 }
+
                 duplicado = false;
             }
             else if (nuevo.total > subArb.total)
@@ -155,6 +161,9 @@ namespace Arbol_Balanceado_Steven_Rocha
             }
             return nuevoPadre;
         }
+        #endregion
+
+        #region Insertar
         public bool InsertarDatos(double total)
         {
             Nodo nuevo = new Nodo(total);
@@ -169,13 +178,17 @@ namespace Arbol_Balanceado_Steven_Rocha
             }
             return duplicado;
         }
+        #endregion
 
+        #region Eliminar
         public bool Eliminar(double total)
         {
             raiz = EliminarNodo(raiz, total);
             return existe;
         }
+        #endregion
 
+        #region Eliminar Nodo
         private Nodo EliminarNodo(Nodo Raiz, double total)
         {
             if (Raiz == null)
@@ -213,7 +226,9 @@ namespace Arbol_Balanceado_Steven_Rocha
             }
             return Raiz;
         }
+        #endregion
 
+        #region Cambiar
         private Nodo Cambiar(Nodo axu)
         {
             Nodo temp = axu, temp2 = axu.izquierdo;
@@ -235,6 +250,7 @@ namespace Arbol_Balanceado_Steven_Rocha
             }
             return temp2;
         }
+        #endregion
 
         #region Metodo para dibujar el arbol cada vez que haya cambio 
         public void MostrarArbol(PaintEventArgs e, Color c)

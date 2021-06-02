@@ -8,3 +8,13 @@ C:\Users\rocha\source\repos\Arbol Balanceado-Steven Rocha\Arbol Balanceado-Steve
 C:\Users\rocha\source\repos\Arbol Balanceado-Steven Rocha\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.csproj.CoreCompileInputs.cache
 C:\Users\rocha\source\repos\Arbol Balanceado-Steven Rocha\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.exe
 C:\Users\rocha\source\repos\Arbol Balanceado-Steven Rocha\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.pdb
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\bin\Debug\Arbol Balanceado-Steven Rocha.exe.config
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\bin\Debug\Arbol Balanceado-Steven Rocha.exe
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\bin\Debug\Arbol Balanceado-Steven Rocha.pdb
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.csprojAssemblyReference.cache
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol_Balanceado_Steven_Rocha.Form1.resources
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol_Balanceado_Steven_Rocha.Properties.Resources.resources
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.csproj.GenerateResource.cache
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.exe
+C:\Users\Steven\Documents\C#\ArbolBalanceado\Arbol Balanceado-Steven Rocha\obj\Debug\Arbol Balanceado-Steven Rocha.pdb
